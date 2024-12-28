@@ -1,7 +1,7 @@
 # Microsoft and Outlook and HotMail Account Checker
 A fast and efficient tool for validating Microsoft accounts and checking their status.
 
-![showcase](https://i.imgur.com/GB2C7BH.gif)
+![showcase](https://github.com/user-attachments/assets/598fb85e-d9f0-43bc-88ab-9761c7ca31d3)
 
 ## Features
 - Bulk Microsoft account validation

@@ -3,28 +3,28 @@ import random
 
 def show_funny_message():
     messages = [
-        "Эй, дружище! Купи софт, а то работаешь как в каменном веке 🦖",
-        "Только сегодня и только сейчас - скидка 146% на самый крутой софт! 🔥",
-        "Psst... Хочешь крутой софт по цене чашки кофе? ☕",
-        "Внимание! Обнаружен пользователь без лицензии. Срочно требуется апгрейд! 🚨",
-        "Купи софт - получи второй в подарок! (шутка, второго нет) 🎁"
+        "Hey buddy! Buy the software or you'll work like in stone age 🦖",
+        "Only today and right now - 146% discount on the coolest software! 🔥",
+        "Psst... Want awesome software for the price of a coffee? ☕",
+        "Alert! User without license detected. Urgent upgrade required! 🚨", 
+        "Buy software - get second one free! (just kidding, there's no second one) 🎁"
     ]
     
-    print("\n=== Важное сообщение ===")
+    print("\n=== Important Message ===")
     for _ in range(3):
         message = random.choice(messages)
         print(message)
         time.sleep(1)
     
-    print("\nНажми Y чтобы купить, N чтобы продолжить жить с пиратским 🏴‍☠️")
+    print("\nPress Y to buy, N to continue living with pirated version 🏴‍☠️")
     choice = input().lower()
     
     if choice == 'y':
-        print("Отличный выбор! Переходим к оплате...")
+        print("Great choice! Proceeding to payment...")
         time.sleep(1)
-        print("💳 Стоимость: 999999₽")
+        print("💳 Price: $9999.99")
     else:
-        print("Ну и зря! Буду появляться каждый час, пока не купишь 😈")
+        print("Your loss! I'll pop up every hour until you buy 😈")
 
 if __name__ == "__main__":
     show_funny_message()
